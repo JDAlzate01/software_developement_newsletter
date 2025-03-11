@@ -11,9 +11,9 @@
     </mj-style>
   </mj-head>
 
-  <mj-body background-color="#f4f4f4">
+  <mj-body background-color="#FDFBEE">
     <!-- Hero Section -->
-    <mj-section background-color="#2c3e50" padding="20px">
+    <mj-section background-color="#015551" padding="20px">
       <mj-column>
         <mj-text color="#ffffff" font-size="32px" align="center" font-weight="bold"> Software Development Trends </mj-text>
         <mj-text color="#ffffff" align="center"> Your Weekly Update on the Latest in Tech </mj-text>
@@ -31,9 +31,9 @@
     </mj-section>
 
     <!-- AI Development Section -->
-    <mj-section background-color="#ffffff" padding="20px" css-class="section-ai">
+    <mj-section background-color="#FDFBEE" padding="20px" css-class="section-ai">
       <mj-column>
-        <mj-text font-size="24px" font-weight="bold" color="#2c3e50"> AI Development Trends </mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="#015551"> AI Development Trends </mj-text>
         <mj-text>
           The rise of generative AI continues to reshape software development practices. Large Language Models (LLMs) are being integrated into development workflows, enabling faster code generation and bug detection. Companies are
           increasingly adopting AI-powered code completion tools and automated testing solutions.
@@ -42,9 +42,9 @@
     </mj-section>
 
     <!-- Cloud Computing Section -->
-    <mj-section background-color="#ffffff" padding="20px" css-class="section-cloud">
+    <mj-section background-color="#FDFBEE" padding="20px" css-class="section-cloud">
       <mj-column>
-        <mj-text font-size="24px" font-weight="bold" color="#2c3e50"> Cloud Computing Evolution </mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="#015551"> Cloud Computing Evolution </mj-text>
         <mj-text>
           Serverless architecture and edge computing are gaining momentum. Organizations are embracing multi-cloud strategies for better resilience and flexibility. Kubernetes continues to dominate container orchestration, while
           cloud-native development becomes the new standard.
@@ -53,9 +53,9 @@
     </mj-section>
 
     <!-- Cybersecurity Section -->
-    <mj-section background-color="#ffffff" padding="20px" css-class="section-security">
+    <mj-section background-color="#FDFBEE" padding="20px" css-class="section-security">
       <mj-column>
-        <mj-text font-size="24px" font-weight="bold" color="#2c3e50"> Cybersecurity Updates </mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="#015551"> Cybersecurity Updates </mj-text>
         <mj-text>
           Zero-trust architecture is becoming essential for modern applications. DevSecOps practices are being widely adopted, integrating security into the development lifecycle. Supply chain security and software composition analysis are
           top priorities for development teams.
@@ -64,9 +64,9 @@
     </mj-section>
 
     <!-- Web Development Section -->
-    <mj-section background-color="#ffffff" padding="20px" css-class="section-webdev">
+    <mj-section background-color="#FDFBEE" padding="20px" css-class="section-webdev">
       <mj-column>
-        <mj-text font-size="24px" font-weight="bold" color="#2c3e50"> Web Development Innovations </mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="#015551"> Web Development Innovations </mj-text>
         <mj-text>
           Web Components and micro-frontends are revolutionizing frontend architecture. The adoption of WebAssembly is expanding, enabling high-performance web applications. Progressive Web Apps continue to bridge the gap between web and
           native experiences.
@@ -75,9 +75,9 @@
     </mj-section>
 
     <!-- Mobile Tech Section -->
-    <mj-section background-color="#ffffff" padding="20px" css-class="section-mobile">
+    <mj-section background-color="#FDFBEE" padding="20px" css-class="section-mobile">
       <mj-column>
-        <mj-text font-size="24px" font-weight="bold" color="#2c3e50"> Mobile Technology Trends </mj-text>
+        <mj-text font-size="24px" font-weight="bold" color="#015551"> Mobile Technology Trends </mj-text>
         <mj-text>
           Cross-platform development frameworks are evolving with better performance and native capabilities. Super apps are emerging as the next frontier in mobile development. 5G integration is enabling new possibilities in mobile app
           experiences.
@@ -85,10 +85,23 @@
       </mj-column>
     </mj-section>
 
+    <!-- CTA Section -->
+    <mj-section background-color="#015551" padding="30px" css-class="section-cta">
+      <mj-column>
+        <mj-text font-size="24px" font-weight="bold" color="#ffffff" align="center"> Stay Updated with Tech Trends </mj-text>
+        <mj-text color="#ffffff" align="center" padding-bottom="20px"> Want to receive more insights about software development trends? Share this newsletter with your colleagues! </mj-text>
+        <mj-button background-color="#FE4F2D" color="#ffffff" font-size="16px" font-weight="bold" border-radius="4px" href="[[SHARE_URL]]"> Share Newsletter </mj-button>
+      </mj-column>
+    </mj-section>
+
     <!-- Footer -->
-    <mj-section background-color="#2c3e50" padding="20px">
+    <mj-section background-color="#FE4F2D" padding="20px">
       <mj-column>
         <mj-text color="#ffffff" align="center" font-size="12px"> © 2024 Software Development Newsletter. All rights reserved. </mj-text>
+        <mj-text color="#ffffff" align="center" font-size="12px">
+          <a href="[[UNSUBSCRIBE_URL]]" style="color: #ffffff; text-decoration: underline">Unsubscribe</a> | <a href="[[PRIVACY_POLICY_URL]]" style="color: #ffffff; text-decoration: underline">Privacy Policy</a> |
+          <a href="[[TERMS_URL]]" style="color: #ffffff; text-decoration: underline">Terms of Service</a>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
